@@ -15,7 +15,7 @@ print(f" is {data['current']['temp_c']}")
 # what my data gave me the following. Note the nested structure.
 # this will help you parse the data you want.
 # {"location":
-    {"name":"New York",
+#   {"name":"New York",
 #       "region":"New York",
 #       "country":"United States of America",
 #       "lat":40.71,
@@ -24,9 +24,9 @@ print(f" is {data['current']['temp_c']}")
 #       "localtime_epoch":1655143188,
 #       "localtime":"2022-06-13 13:59"},
 #"current":
-    {"last_updated_epoch":1655142300,
+#   {"last_updated_epoch":1655142300,
 #       "last_updated":"2022-06-13 13:45",
 #       "temp_c":28.3,
 #       "temp_f":82.9,
 #       "is_day":1,
-}
+# }
